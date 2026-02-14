@@ -1,2 +1,5 @@
 # Ignore ds store
 .DS_Store
+.claude
+/venv 
+
