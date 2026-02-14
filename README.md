@@ -1,12 +1,17 @@
-# Data Science Projects #
-Repository containing multiple data science projects completed by me for academic, self learning, and hobby purposes.
+# Machine Learning Projects
 
-## Contents
-### Machine Learning/Deep Learning 
-* Time Series Analysis: [link to notebook](https://github.com/tabers77/Machine-Learning-Projects/blob/main/Time%20Series/pipeline-test-v-1-0-ts.ipynb)
-* The Flight Ticket Price Hackathon : [link to notebook](https://github.com/tabers77/Machine-Learning-Projects/blob/main/Flight%20Ticket%20Price%20Hackathon/flight-price-prediction.ipynb) This hackathon is about predicting the ever-varying prices of tickets. The dataset consists of data collected from various sources and includes the following features.
-* New York City Taxi Fare Prediction [link to notebook](https://github.com/tabers77/Machine-Learning-Projects/blob/main/New%20York%20City%20Taxi%20Fare%20Prediction/COLAB_New_York_City_Taxi_Fare_Prediction.ipynb)
-* Stock Sentiment Analysis [link to notebook](https://github.com/tabers77/Machine-Learning-Projects/blob/main/Stock%20Sentiment%20Analysis/Stock%20Sentiment%20Analysis.ipynb)
-* Trying different approaches on a classification problem [link to notebook](https://github.com/tabers77/Machine-Learning-Projects/blob/main/Auto-encoders%20for%20classification%20/Auto-encoders%20for%20classification%20.ipynb)
+A collection of end-to-end machine learning experiments covering regression, classification, NLP, time-series forecasting, and deep learning.
 
-**Tools**: scikit-learn, Pandas, Seaborn, Matplotlib
+## Projects
+
+| Project | Description | Techniques | Notebook |
+|---------|-------------|------------|----------|
+| Auto-encoders for Classification | Compares autoencoders against traditional classifiers on a heart-disease dataset | Autoencoders, Random Forest, Logistic Regression | [notebook](Auto-encoders%20for%20classification/Auto-encoders%20for%20classification%20.ipynb) |
+| Flight Ticket Price Hackathon | Predicts airline ticket prices from route, airline, and schedule features | Regression, Feature Engineering, Random Forest | [notebook](Flight%20Ticket%20Price%20Hackathon/flight-price-prediction.ipynb) |
+| New York City Taxi Fare Prediction | Estimates NYC taxi fares using pickup/dropoff coordinates and trip metadata | Regression, Haversine Distance, XGBoost | [notebook](New%20York%20City%20Taxi%20Fare%20Prediction/COLAB_New_York_City_Taxi_Fare_Prediction.ipynb) |
+| Stock Sentiment Analysis | Classifies stock-market news headlines as positive or negative sentiment | NLP, Bag of Words, Random Forest | [notebook](Stock%20Sentiment%20Analysis/Stock%20Sentiment%20Analysis.ipynb) |
+| Time Series | Builds a forecasting pipeline for time-series data | ARIMA, Stationarity Tests, Rolling Statistics | [notebook](Time%20Series/pipeline-test-v-1-0-ts.ipynb) |
+
+## Tools & Technologies
+
+Python, scikit-learn, TensorFlow / Keras, Pandas, NumPy, Matplotlib, Seaborn

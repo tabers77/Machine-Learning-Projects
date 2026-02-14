@@ -1,5 +1,25 @@
-# Ignore ds store
-.DS_Store
-.claude
-/venv 
+# Jupyter
+.ipynb_checkpoints/
 
+# Data & model artifacts
+*.h5
+*.csv
+*.pkl
+*.joblib
+
+# Generated artifacts
+commit_message.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+/venv
+__pycache__/
+*.pyc
+
+# IDE / tools
+.claude/
+.vscode/
+.idea/
