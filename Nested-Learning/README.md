@@ -230,6 +230,14 @@ cd notebooks && jupyter notebook
 
 ---
 
+## Practical Guide
+
+For a hands-on guide on how these findings affect the way you train supervised models in practice (layerwise learning rates, freezing strategies, retraining fixes, and per-class monitoring), see:
+
+**[Practical Guide: Applying Nested Learning Findings to Model Training](docs/practical_guide.md)**
+
+---
+
 ## References
 
 - [Nested Learning paper (arXiv)](https://arxiv.org/abs/2512.24695)
